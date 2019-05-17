@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url();
+  src: url();
+}
+
+.page {
+  max-width: 1920px;
+  min-width: 1920px;
+  font-family: Open Sans, sans-serif;
+}
+
+.header {
+  height: 555px;
+  left: 0px;
+  top: 0px;
+  background: radial-gradient(318.85px at 52.55% 50%, #355B77 0%, #003B5D 100%);
+  
+  position: relative;
+}
+
+.container {
+  padding-top: 67px;
+  display: flex;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.15em;
+
+  color: #FFFFFF;
+}
+
+.logotype {
+  margin-left: 133px;
+}
+.logodiscribe {
+  padding-left: 27px;
+  margin-top: 20px;
+}
+.logodiscribe p {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height:  10px;
+  letter-spacing: 0.15em;
+  color: rgba(255, 186, 47, 0.6);
+}
+
+.header-menu {
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-link .differ {
+  text-decoration: underline;
+  margin-right: 51px;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  color:  #FFBA2F;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-left: 27px;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.menu-list-item:nth-child(n +2) {
+  margin-left: 33px;
+}
+
+.contact {
+  margin-right: 180px;
+}
+
+.telephone {
+  display: flex;
+}
+
+.telephone img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+.telephone p {
+  padding-left: 20px;
+  
+}
+
+.contact p, .telephone {
+  color: #FFBA2F;
+}
+
+h1, .header-title {
+  width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Alice;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 75px;
+  letter-spacing: 0.11em;
+  text-align: center;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+.header-title {
+  color: #FFBA2F;
+}
+
+.header::after {
+  content: " _______________ ";
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 40px;
+  color: #FFBA2F;;
+    
+  position: absolute;
+  top: 443px;
+  left: 785px;
+}
