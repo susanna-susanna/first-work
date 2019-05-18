@@ -14,18 +14,30 @@ body {
   font-family: Open Sans, sans-serif;
 }
 
+
+
 .header {
   height: 555px;
   left: 0px;
   top: 0px;
+  right: 0;
   background: radial-gradient(318.85px at 52.55% 50%, #355B77 0%, #003B5D 100%);
   
   position: relative;
 }
 
 .container {
+  
+  position: relative;
+  top: 0;
+  right:0;
+  left: 0;
   padding-top: 67px;
+  padding-left: 133px;
+  padding-right: 180px;
   display: flex;
+  font-family: Asap;
+  font-style: normal;
   font-family: Asap;
   font-style: normal;
   font-weight: normal;
@@ -38,19 +50,21 @@ body {
 }
 
 .logotype {
-  margin-left: 133px;
+  width: 168px;
+  height: 89px;
+  
+  
 }
-.logodiscribe {
-  padding-left: 27px;
-  margin-top: 20px;
-}
-.logodiscribe p {
+
+ .logotype p {
   display: block;
+  margin-top: 20px;
+  margin-left: 27px;
   text-align: left;
   font-size: 18px;
-  line-height:  10px;
+  line-height: 21px;
   letter-spacing: 0.15em;
-  color: rgba(255, 186, 47, 0.6);
+  color: #FFBA2F;
 }
 
 .header-menu {
@@ -89,10 +103,6 @@ body {
   margin-left: 33px;
 }
 
-.contact {
-  margin-right: 180px;
-}
-
 .telephone {
   display: flex;
 }
@@ -102,24 +112,33 @@ body {
   height: 20px;
   margin-top: 15px;
 }
-.telephone p {
+.telephone-number {
   padding-left: 20px;
-  
 }
+.telephone-order {
+  margin-top: 20px;
+}
+
 
 .contact p, .telephone {
   color: #FFBA2F;
 }
 
-h1, .header-title {
+h1 {
+  display: block;
   width: 736px;
+  top: 205px;
   margin-left: auto;
   margin-right: auto;
+}
+
+h1, .header-title {
+  
   font-family: Alice;
   font-style: normal;
   font-weight: normal;
   font-size: 55px;
-  line-height: 75px;
+  line-height: 60px;
   letter-spacing: 0.11em;
   text-align: center;
 }
@@ -133,7 +152,7 @@ h1 {
 }
 
 .header::after {
-  content: " _______________ ";
+  content: " ______________ ";
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -141,6 +160,6 @@ h1 {
   color: #FFBA2F;;
     
   position: absolute;
-  top: 443px;
-  left: 785px;
+  top: 447px;
+  left: 787px;
 }
