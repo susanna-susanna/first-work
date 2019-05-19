@@ -237,10 +237,10 @@ top: 80px;
   padding-left: 13px;
 }
 
-  .img-padlock {
-  display:block;
+.img-padlock img {
   width: 30px;
   height: 30px;
+  margin-right: 20px;
 }
 .enter-for-clients p {
   font-family: inherit;
@@ -252,7 +252,7 @@ top: 80px;
 
 .container-footer {
   position:absolute;
-  top: 208px;
+  top: 195px;
   left: 1410px;
   width: 335px;
   height: 25px;
@@ -297,7 +297,7 @@ top: 80px;
 
 .contacts-footer {
   position: absolute;
-  top: 250px;
+  top: 275px;
   right: 116px;
   display: block; 
   text-decoration: none;
@@ -314,8 +314,13 @@ top: 80px;
   text-align: center;
   text-decoration: none;
   font-family: inherit;
-  font-size: 9px;
-  line-height: 9px;
+  font-size: 10px;
+  line-height: 15px;
   font-weight: normal;
   color: #FFBA2F;
+}
+
+
+.contacts-footer:hover, .enter-for-clients p:hover {
+  opacity: 1;
 }
